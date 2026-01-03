@@ -1,0 +1,54 @@
+html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulaire de Profil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <h2>Compte</h2>
+    <label>Nom du compte actuel:</label>
+    <input type="text" name="nom_compte"><br>
+    <label>Compte actif:</label>
+    <input type="checkbox" name="actif"><br>
+
+    <h2>Identité</h2>
+    <label>Nom complet:</label>
+    <input type="text" name="nom_complet"><br>
+    <label>Genre:</label>
+    <input type="radio" name="genre" value="homme"> ♂
+    <input type="radio" name="genre" value="femme"> ♀<br>
+
+    <h2>Contact</h2>
+    <label>Email:</label>
+    <input type="email" name="email"><br>
+    <label>Téléphone:</label>
+    <input type="tel" name="telephone"><br>
+
+    <h2>Jeu</h2>
+    <label>UID du joueur:</label>
+    <input type="text" name="uid"><br>
+    <label>Région:</label>
+    <select name="region">
+      <option>Amérique du Nord</option>
+      <option>Europe</option>
+      <option>Asie</option>
+    </select><br>
+    <label>Niveau du compte:</label>
+    <input type="number" name="niveau"><br>
+
+    <h2>Créateur de contenu</h2>
+    <label>Activer:</label>
+    <input type="checkbox" name="createur"><br>
+
+    <h2>Message</h2>
+    <textarea name="message"></textarea><br>
+
+    <button type="submit">Envoyer</button>
+  </form>
+</body>
+</html>
+
+      
